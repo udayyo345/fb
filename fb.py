@@ -1,4 +1,3 @@
-from typing_extensions import Self
 from fbchat import Client, log, _graphql
 from fbchat.models import *
 import json
@@ -646,7 +645,7 @@ class ChatBot(Client):
                   thread_type=thread_type)
 
 
-cookies = {"sb": "E9gpYgRsr72QYUttzIB-uSze", "m_pixel_ratio": "1", "x-referer": "eyJyIjoiLz9yZWZzcmM9ZGVwcmVjYXRlZCZzb2Z0PWJvb2ttYXJrcyIsImgiOiIvP3JlZnNyYz1kZXByZWNhdGVkJnNvZnQ9Ym9va21hcmtzIiwicyI6Im0ifQ%3D%3D", "datr": "06UsYm8XV15muZBfyOTb6z4R", "wd": "1920x961", "locale": "en_US", "c_user": "100076310311333", "xs": "36%3AulZB7u6ocodqrQ%3A2%3A1647144751%3A-1%3A6761", "fr": "0ZWrglRe1kM9angZA.AWXVQ96qBPavkxpB1jZ8H3vwKkg.BiLOEd.UT.AAA.0.0.BiLW8x.AWXPfntmSM4", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1647144756620%2C%22v%22%3A1%7D"}
+cookies = {"sb": "E9gpYgRsr72QYUttzIB-uSze", "m_pixel_ratio": "1", "x-referer": "eyJyIjoiLz9yZWZzcmM9ZGVwcmVjYXRlZCZzb2Z0PWJvb2ttYXJrcyIsImgiOiIvP3JlZnNyYz1kZXByZWNhdGVkJnNvZnQ9Ym9va21hcmtzIiwicyI6Im0ifQ%3D%3D", "datr": "06UsYm8XV15muZBfyOTb6z4R", "locale": "en_US", "wd": "1920x961", "c_user": "100017044454125", "xs": "42%3AP-67NZPM5lWcVg%3A2%3A1647146648%3A-1%3A3662", "fr": "024n237G7xgvoCZ28.AWVC44fRiD0jTS2u17S3jt4XiWw.BiLXXu.UT.AAA.0.0.BiLXaU.AWXrgfOzZiE", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1647146656932%2C%22v%22%3A1%7D"}
 
 # enter your email and password facebook
 client=ChatBot("",
