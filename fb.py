@@ -518,9 +518,6 @@ class ChatBot(Client):
             elif ("marry me" in msg):
                 reply="Yes, if you are nice and kind girl. But if you are boy RIP."
                 sendMsg()
-            elif ("you sure" in msg):
-                reply="Yes. I'm sure."
-                sendMsg()
             elif ("great" in msg):
                 reply="Thanks!"
                 sendMsg()
@@ -561,7 +558,7 @@ class ChatBot(Client):
                 reply="Hi"
                 sendMsg()
             elif (msg == "hi"):
-                reply="Hello!?"
+                reply="Hello!"
                 sendMsg()
             
 
