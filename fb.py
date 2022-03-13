@@ -642,7 +642,7 @@ class ChatBot(Client):
                   thread_type=thread_type)
 
 
-cookies = {"sb": "LqUtYsKJqZ_gtjQ0iQ_LlqNc", "wd": "1920x961", "datr": "LqUtYikf9qQ6F83J1kiXdxOw", "c_user": "100017044454125", "xs": "30%3AsdWx14a5Dwr7wQ%3A2%3A1647158584%3A-1%3A3662", "fr": "0zZdZW4Eb9If6WEmE.AWUS5Q-IsnreWYmdOWjO_kt8fss.BiLaUu.b5.AAA.0.0.BiLaU5.AWXH1gzzV28", "presence": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1647158590172%2C%22v%22%3A1%7D"}
+cookies = {"sb": "xagtYveIdRnDxqwsVy6t_8Xl", "wd": "1920x961", "datr": "zKgtYkadj_i_CAzXFoXS1rF7", "c_user": "100017044454125", "xs": "23%3A6dxXfGha3he_vw%3A2%3A1647159653%3A-1%3A3662", "fr": "0UYeEblUaIolEBeDn.AWVAhNJ5xwmQJaPadm6UxmP2gJ0.BiLajF.XC.AAA.0.0.BiLalm.AWXr6a9622Y"}
 
 # enter your email and password facebook
 client=ChatBot("",
